@@ -70,9 +70,4 @@ Project Structure
 | package.json                       | NPM dependencies.                                            |
 | package-lock.json                  | Contains exact versions of NPM dependencies in package.json. |
 
-**Note:** There is no preference how you name or structure your views.
-You could place all your templates in a top-level `views` directory without
-having a nested folder structure, if that makes things easier for you.
-Just don't forget to update `extends ../layout`  and corresponding
-`res.render()` paths in controllers.
 

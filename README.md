@@ -1,7 +1,7 @@
 Mini Exchange App 
 =======================
 
-A stock exchange through which external clients can buy the stocks of various companies via an API. The app support multi-threading using the **PM2** library in node.js. The exchange will reply back with one company stock (highest price) based on targeting, budget & other factors.
+A stock exchange through which external clients can buy the stocks of various companies via an API. The app supports multi-threading using the **PM2** library in node.js. The exchange will reply back with one company stock (highest price) based on targeting, budget & other factors.
 
 Table of Contents
 -----------------
@@ -27,8 +27,6 @@ Prerequisites
 
 Getting Started
 ---------------
-
-Clone the repository to get started:
 
 ```bash
 # Get the latest snapshot
@@ -66,7 +64,6 @@ Project Structure
 | .eslintrc                          | Rules for eslint linter.                                     |
 | .gitignore                         | Folder and files ignored by git.                             |
 | app.js                             | The main application file.                                   |
-| Dockerfile                         | Docker configuration file.                                   |
 | package.json                       | NPM dependencies.                                            |
 | package-lock.json                  | Contains exact versions of NPM dependencies in package.json. |
 
